@@ -1,0 +1,3 @@
+@for(i of items; track i.title){
+<app-item [item]="i" (add)="addToBasket($event)"></app-item>
+}
