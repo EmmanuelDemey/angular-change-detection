@@ -1,10 +1,9 @@
-import { AsyncPipe } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, inject } from '@angular/core';
+import { firstValueFrom } from 'rxjs';
 import { List } from './list/list';
 import { Total } from './total/total';
 import { Item } from './type';
-import { firstValueFrom } from 'rxjs';
 
 @Component({
   selector: 'app-root',
